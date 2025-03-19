@@ -30,16 +30,26 @@ make
 
 
 ## Files Structure:
-ft_printf.c: The main file containing the ft_printf function.
+ft_printf.c: Contains the main ft_printf function that parses the format string and directs output.
 
-ft_printf_utils.c: Helper functions used for parsing and printing.
+ft_printf.h: The header file that includes prototypes, macros, and structure definitions for the project.
 
-ft_printf.h: Header file containing prototypes, macros, and structure definitions.
+ft_printf_utils.c: Contains helper functions for parsing format strings and handling conversions.
+
+ft_itoa.c: Implements integer to ASCII conversion.
+
+ft_print_hex.c: Handles conversion and printing of hexadecimal values.
+
+ft_print_ptr.c: Handles conversion and printing of pointer values.
+
+ft_print_unsigned.c: Implements printing for unsigned integers.
+
+ft_putchar_fd.c: Contains a utility function for printing a character to a given file descriptor.
 
 Makefile: Automates the build process.
 
 
-## *What I Learned:*
+## What I Learned:
 **Working on ft_printf allowed me to dive deep into:**
 
 #### Variadic Functions:
@@ -53,5 +63,5 @@ Efficiently managing memory without leaks, as verified by tools like Valgrind.
 #### Adhering to Coding Norms:
 Reinforcing clean, maintainable code that meets strict coding standards.
 
-## *Conclusion:*
+## Conclusion:
 ft_printf was an invaluable project that enhanced my understanding of C programming fundamentals and system-level programming. This implementation not only replicates a core C standard library function but also reinforces best practices in software design and code efficiency.
