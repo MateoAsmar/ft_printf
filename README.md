@@ -26,7 +26,9 @@ Testing: Thoroughly tested against a wide variety of format strings to ensure ac
 ## Usage:
 ***To compile ft_printf:***
 
+```bash
 make
+```
 
 
 ## Files Structure:
